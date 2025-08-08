@@ -7,7 +7,7 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-# 缓存文件
+# Unity生成的文件
 *.tmp
 *.user
 *.userprefs
@@ -19,12 +19,7 @@
 *.opendb
 *.VC.db
 
-# Unity3D生成的meta文件（有些情况需要忽略）
-*.pidb.meta
-*.pdb.meta
-*.mdb.meta
-
-# 系统文件
+# OS生成的文件
 .DS_Store
 .DS_Store?
 ._*
@@ -32,3 +27,23 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Visual Studio缓存文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# 如果没有Git LFS，可以忽略大文件
+# *.fbx
+# *.png
+# *.jpg
+# *.mp3
+# *.wav
+# *.mp4
+# *.psd
